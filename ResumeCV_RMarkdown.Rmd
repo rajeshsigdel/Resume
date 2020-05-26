@@ -27,8 +27,8 @@ setwd("D:/Rfiles/Resume")
   --pagedjs-margin-left: 0.2in;
 }
 
-# Do not worry about the code
-# It is used to decrease the size of sidebar
+/* Do not worry about the code*/
+/* It is used to decrease the size of sidebar*/
 @page{
   size: letter portrait;
   margin: 1in 0.5in 1in 0.25in;
