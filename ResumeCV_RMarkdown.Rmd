@@ -1,0 +1,265 @@
+---
+title: "Rajesh Sigdel's CV"
+author: Rajesh Sigdel
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: true
+---
+```{r echo = F}
+setwd("D:/Rfiles/Resume")
+# https://github.com/nstrayer/cv
+```
+
+
+
+```{css, echo=FALSE}
+.aside {padding-top: 0;}  /* Do not worry about this code */
+                          /* This code moves the figure up a little bit */
+.aside > p:first-of-type /* Copied from Internet */
+  margin-top: 0;
+}
+
+{
+  /* Override default right margin for sidebar*/
+  --pagedjs-margin-right: 0.2in;
+  --pagedjs-margin-left: 0.2in;
+}
+
+# Do not worry about the code
+# It is used to decrease the size of sidebar
+@page{
+  size: letter portrait;
+  margin: 1in 0.5in 1in 0.25in;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+:root{
+  --page-width: 8.5in;
+  --margin-right: 0.5in;
+  --margin-left: 0.25in;
+  --content-width: calc(var(--page-width) - var(--margin-right) - var(--margin-left));
+  --root-font-size: 12pt;
+  --sidebar-width: 12rem;
+  --sidebar-background-color: #f7fbff;
+  --main-width: calc(var(--content-width) - var(--sidebar-width));
+  --decorator-horizontal-margin: 0.2in;
+  --sidebar-horizontal-padding: 0.1in; /* Reduce sidebar padding */
+  --decorator-outer-dim: 10px; /* Make position deliniating circles larger */
+  --decorator-border: 2px solid #bdd7e7; /* Make timeline a blue as well*/}
+
+.blocks {
+  break-inside: avoid;
+}
+
+.aside li::before {
+  position: relative;
+  margin-left: -4.25pt;
+  content: "• ";
+}
+
+.aside ul {
+  padding-left: 1rem;
+}
+
+/* Make little circle outline be a light blue */
+.decorator::after {
+  background-color: #08306b;
+}
+
+.aside {
+  width: calc(var(--sidebar-width)+4px ;
+  line-height: 1.2;
+  font-size: 0.75rem;
+}
+
+```
+
+Aside
+======================================================
+
+![logo](logo.png){width=100%}<br/>
+Sample of data analysis and visualizations work: 
+https://rpubs.com/rajesh1
+
+Contact {#contact}
+------------------------------------------------------
+
+<i class="fas fa-envelope"></i> Email:<br/> r_sigdel@uncg.edu <br/>
+<br/>
+<i class="fa fa-github"></i> Github:<br/> https://github.com/rajeshsigdel  <br/> 
+<br/>
+<i class="fa fa-phone"></i> Phone:<br/> 419-420-5555 <br/>
+<br/>
+<i class="fas fa-home"></i> Address:<br/> Greensboro, NC (willing to relocate)
+<br/>
+
+
+
+
+Skills {#skills}
+------------------------------------------------------
+
+- SQL (MTA certified)
+- Microsoft Power BI
+- R
+- Python
+- Microsoft Excel
+- ArcGIS: spatail data visualization
+
+<br/>
+
+Disclaimer
+------------------------------------
+
+This resume was made with the R software 
+package [**pagedown**](https://github.com/rstudio/pagedown) <br/>
+<br/>
+Last updated on `r Sys.Date()`.
+
+
+
+Main
+====================================
+
+Rajesh Sigdel {#title}
+------------------------------------
+
+Fresh Graduate student with good experience in data science and data analytics. I am passionate about data and visualization. Looking for an internship to apply skill sets to grow more.
+
+Education {data-icon=graduation-cap}
+------------------------------------
+### Ph.D. in Geography
+
+University of North Carolina at Greensboro
+
+Greensboro, NC
+
+Expected: 2023
+
+
+
+### MS in Geography
+
+Western Michigan University
+
+Kalamazoo, MI
+
+2019
+
+"Geography Department Graduate Research and Creative Scholar Award for outstanding achievement within the discipline"
+
+### MS in Biology
+
+Grand Valley State University
+
+Allendale, MI
+
+2017
+
+"Graduate Dean’s Citation for Academic Excellence - Excellence in Service to the Community or Profession"
+
+
+### Bsc in Environmental Science
+
+Tribhuvan University
+
+Kathmandu, Nepal
+
+2012
+
+Work Experience {data-icon=laptop}
+-------------------------------------
+
+### Research/Teaching Assistant
+Univeristy of North Carolina at Greensboro
+
+Greensboro, NC
+
+2019-current
+
+
+- Collected data from field work, analyzed, created visualizations, and performed statistics using R and excel that are published in a scientific journal as a co-author
+- Conducted sentiment analysis on Twitter data
+-  Taught 103 Earth Science labs to undergraduate students that covers several topics including regression analysis
+
+
+### Research/Teaching Assistant
+Western Michigan University (WMU)
+
+Kalamazoo, MI
+
+2017-2019
+
+- Analyzed economic and health data from the World Bank
+- Created visualizations and analyzed most of the data for the book “Africa's Geography: Dynamics of Place, Cultures, and Economies” authored by Dr. Benjamin Ofori-Amoah
+- Used statistical techniques to address research questions
+- Teaching Assistant for several courses including Environmental Science
+- Regularly hold office hours for students to help them understand course materials
+
+Communication Skills {data-icon=chart-line}
+-------------------------------------
+
+### 3 Minute Thesis Competition - 2nd Place Winner
+Western Michigan University
+
+Kalamazoo, NC
+
+Spring 2019
+
+- Presented objectives of research, methods of data analysis, results, and conclusion within 3 minutes
+- Presentation available at WMU Graduate School YouTube channel: https://youtu.be/eomfFC7JtsQ
+
+
+### East Lake of American Association of Geographers - 1st Place Winner (MS category)
+
+Ohio Northern University
+
+Ada, Ohio
+
+October 18, 2018
+
+- Presented objectives of research, methods of data analysis, results, and conclusion within 20 minutes in East Lake of AAG Interstate Competition
+
+
+Leadership Skills {data-icon=hands-helping}
+-------------------------------------
+### Lead Teaching Assistant (TA) for the course: 103 Earth Science Labs
+University of North Carolina at Greensboro
+
+Greensboro, NC
+
+Jan 2020 to current
+
+- Supervised 4 other lab Teaching Assistants for the course
+- Condut regular meetings to share teaching ideas among lab TAs
+
+
+### Near East and South Asia Scholarship program
+Grand Valley State University 
+
+Allendale, MI
+
+2011-2012
+
+- Received full scholarships from Fulbright Commission as an outstanding student from Nepal to attend an American University as an exchange student.
+
+
+```{r echo = FALSE}
+# Do not worry about the .aside style code
+
+# This code will be used to print the message in second page
+```
+
+
+:::{.aside style="top: 0;"}
+Communication helps in better understanding of data
+:::
+
+:::{.aside style="middle: 0;"}
+I believe in collective work and taking indivudal responsibility
+:::
